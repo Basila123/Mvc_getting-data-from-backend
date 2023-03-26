@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BasilaModelStoreContainer" CdmEntityContainer="BasilaEntities">
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="BasilaModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="prod_id" ColumnName="prod_id" />
+          <ScalarProperty Name="prod_name" ColumnName="prod_name" />
+          <ScalarProperty Name="prod_price" ColumnName="prod_price" />
+          <ScalarProperty Name="prod_qty" ColumnName="prod_qty" />
+          <ScalarProperty Name="prod_pic" ColumnName="prod_pic" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
